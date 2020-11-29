@@ -3,27 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B7747C1325725B1E00584F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7747C1225725B1E00584F01 /* AppDelegate.swift */; };
 		B7747C1525725B1E00584F01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7747C1425725B1E00584F01 /* SceneDelegate.swift */; };
-		B7747C1725725B1E00584F01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7747C1625725B1E00584F01 /* ContentView.swift */; };
+		B7747C1725725B1E00584F01 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7747C1625725B1E00584F01 /* EmojiMemoryGameView.swift */; };
 		B7747C1925725B2200584F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7747C1825725B2200584F01 /* Assets.xcassets */; };
 		B7747C1C25725B2200584F01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7747C1B25725B2200584F01 /* Preview Assets.xcassets */; };
 		B7747C1F25725B2200584F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7747C1D25725B2200584F01 /* LaunchScreen.storyboard */; };
+		B7747C2825725F4A00584F01 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7747C2725725F4A00584F01 /* MemoryGame.swift */; };
+		B7747C2B25726E8F00584F01 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7747C2A25726E8F00584F01 /* EmojiMemoryGame.swift */; };
+		B7B8956E2573C266002433C0 /* Grid in Frameworks */ = {isa = PBXBuildFile; productRef = B7B8956D2573C266002433C0 /* Grid */; };
+		B7B895722573CC86002433C0 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B895712573CC86002433C0 /* Array+Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7747C0F25725B1E00584F01 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7747C1225725B1E00584F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7747C1425725B1E00584F01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7747C1625725B1E00584F01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7747C1625725B1E00584F01 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		B7747C1825725B2200584F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7747C1B25725B2200584F01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7747C1E25725B2200584F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7747C2025725B2200584F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7747C2725725F4A00584F01 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		B7747C2A25726E8F00584F01 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		B7B895712573CC86002433C0 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B8956E2573C266002433C0 /* Grid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +66,10 @@
 			children = (
 				B7747C1225725B1E00584F01 /* AppDelegate.swift */,
 				B7747C1425725B1E00584F01 /* SceneDelegate.swift */,
-				B7747C1625725B1E00584F01 /* ContentView.swift */,
+				B7747C1625725B1E00584F01 /* EmojiMemoryGameView.swift */,
+				B7747C2725725F4A00584F01 /* MemoryGame.swift */,
+				B7B895712573CC86002433C0 /* Array+Identifiable.swift */,
+				B7747C2A25726E8F00584F01 /* EmojiMemoryGame.swift */,
 				B7747C1825725B2200584F01 /* Assets.xcassets */,
 				B7747C1D25725B2200584F01 /* LaunchScreen.storyboard */,
 				B7747C2025725B2200584F01 /* Info.plist */,
@@ -91,6 +102,9 @@
 			dependencies = (
 			);
 			name = Memorize;
+			packageProductDependencies = (
+				B7B8956D2573C266002433C0 /* Grid */,
+			);
 			productName = Memorize;
 			productReference = B7747C0F25725B1E00584F01 /* Memorize.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +132,9 @@
 				Base,
 			);
 			mainGroup = B7747C0625725B1E00584F01;
+			packageReferences = (
+				B7B8956C2573C266002433C0 /* XCRemoteSwiftPackageReference "swiftui-grid" */,
+			);
 			productRefGroup = B7747C1025725B1E00584F01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,7 +164,10 @@
 			files = (
 				B7747C1325725B1E00584F01 /* AppDelegate.swift in Sources */,
 				B7747C1525725B1E00584F01 /* SceneDelegate.swift in Sources */,
-				B7747C1725725B1E00584F01 /* ContentView.swift in Sources */,
+				B7747C2825725F4A00584F01 /* MemoryGame.swift in Sources */,
+				B7747C1725725B1E00584F01 /* EmojiMemoryGameView.swift in Sources */,
+				B7747C2B25726E8F00584F01 /* EmojiMemoryGame.swift in Sources */,
+				B7B895722573CC86002433C0 /* Array+Identifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7B8956C2573C266002433C0 /* XCRemoteSwiftPackageReference "swiftui-grid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-grid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7B8956D2573C266002433C0 /* Grid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7B8956C2573C266002433C0 /* XCRemoteSwiftPackageReference "swiftui-grid" */;
+			productName = Grid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7747C0725725B1E00584F01 /* Project object */;
 }
